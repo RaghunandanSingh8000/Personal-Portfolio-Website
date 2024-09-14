@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="hero">
+            <h1>Hello, I'm <span id="name">Raghunandan Singh Rathore</span></h1>
+            <p>Welcome to my portfolio. I am a [Your Profession].</p>
+            <button id="contact-button">Contact Me</button>
+        </div>
+    </header>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">HTML & CSS</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">Node.js</div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>Description of project one. This project involves...</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>Description of project two. This project includes...</p>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to get in touch with me through the form below:</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

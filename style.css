@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+section {
+    padding: 20px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    background-color: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #21a1f1;
+}
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
